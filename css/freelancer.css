@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #ffa400; /*For all links*/
 }
 
 h1,
@@ -44,6 +44,7 @@ hr.star-primary {
     border: 0;
     border-top: solid 5px;
     text-align: center;
+	
 }
 
 hr.star-light:after,
@@ -58,21 +59,21 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #fcfcfc;
 }
 
 hr.star-light:after {
-    color: #fff;
-    background-color: #18bc9c;
+    color: #ffa400;
+    background-color: #3c3c3c;
 }
 
 hr.star-primary {
-    border-color: #2c3e50;
+    border-color: #3c3c3c;
 }
 
 hr.star-primary:after {
-    color: #2c3e50;
-    background-color: #fff;
+	color: #ffa400;
+    background-color: #fcfcfc;
 }
 
 .img-centered {
@@ -81,8 +82,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #18bc9c;
+    color: #fcfcfc;
+    background: #3c3c3c;
 }
 
 header .container {
@@ -151,6 +152,7 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+	background-color: #2c2c2c;
 }
 
 .navbar a:focus {
@@ -167,11 +169,24 @@ header .intro-text .skills {
 
 .navbar-default,
 .navbar-inverse {
-    border: 0;
+	border-bottom: 1px solid black;
+}
+
+.navbar li.page-scroll a:active,
+.navbar li.page-scroll a:focus,
+.navbar li.page-scroll a:hover {
+	color: #ffa400; /*Fix navbar colour*/
+}
+
+.navbar-header.page-scroll a:active,
+.navbar-header.page-scroll a:focus,
+.navbar-header.page-scroll a:hover {
+	color: #ffa400;
 }
 
 section {
     padding: 100px 0;
+	border-top: 1px solid black;
 }
 
 section h2 {
@@ -181,7 +196,8 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #3c3c3c;
+	border-top: 1px solid black;
 }
 
 section.success a,
@@ -190,7 +206,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #2c3e50;
+    color: #ffa400;
 }
 
 @media(max-width:767px) {
@@ -201,6 +217,10 @@ section.success a.active {
     section.first {
         padding-top: 75px;
     }
+}
+
+#portfolio h2 {
+	color: #2c2c2c;
 }
 
 #portfolio .portfolio-item {
@@ -262,20 +282,37 @@ section.success a.active {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #8c8c8c;
     font-size: 20px;
-    color: #fff;
-    background: 0 0;
+    color: #fcfcfc;
+    background-color: #2c2c2c;
     transition: all .3s ease-in-out;
 }
 
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
-    border: solid 2px #fff;
-    color: #18bc9c;
-    background: #fff;
+.fa.fa-download {
+	color: #ffa400;
+}
+
+.btn-lg.btn-outline {
+	color: #fcfcfc;
+}
+
+.btn-lg.btn-outline:hover,
+.btn-lg.btn-outline:focus,
+.btn-lg.btn-outline:active,
+.btn-lg.btn-outline.active {
+    border: solid 2px #fcfcfc;
+    color: #ffa400;
+    background: #2c2c2c;
+}
+
+.btn-outline:hover .fa-stackoverflow,
+.btn-outline:focus .fa-stackoverflow,
+.btn-outline:active .fa-stackoverflow,
+.btn-outline.active .fa-stackoverflow {
+    border: solid 2px #8c8c8c;
+    color: #fcfcfc;
+    background: #2c2c2c;
 }
 
 .floating-label-form-group {
@@ -327,7 +364,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #ffa400;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -335,7 +372,21 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #fff;
+    color: #3c3c3c;
+}
+
+footer a,
+footer a:hover,
+footer a:focus,
+footer a:active {
+	color: #ff8400; /*Make it darker and redder because white background */
+}
+
+.footer-below a,
+.footer-below a:hover,
+.footer-below a:focus,
+.footer-below a:active {
+	color: #ffa400;
 }
 
 footer h3 {
@@ -344,7 +395,8 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2c3e50;
+    background-color: #fcfcfc;
+	border-top: 1px solid black;
 }
 
 footer .footer-col {
@@ -352,15 +404,17 @@ footer .footer-col {
 }
 
 footer .footer-below {
+	color: #fcfcfc;
     padding: 25px 0;
-    background-color: #233140;
+    background-color: #2c2c2c;
+	border-top: 1px solid black;
 }
 
 .btn-social {
     display: inline-block;
     width: 50px;
     height: 50px;
-    border: 2px solid #fff;
+    border: 1px solid #2c2c2c;
     border-radius: 100%;
     text-align: center;
     font-size: 20px;
@@ -437,7 +491,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #2c3e50;
+    background-color: #2c2c2c;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -447,7 +501,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #2c3e50;
+    background-color: #2c2c2c;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
