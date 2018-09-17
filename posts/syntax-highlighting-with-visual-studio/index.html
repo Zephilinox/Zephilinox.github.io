@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.48" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta content="C&#43;&#43;, Gamedev, Programming" name="keywords">
 	<meta content="Ricardo Heath" name="author">
-	<meta property="og:title" content="Blog">
-	<meta property="og:url" content="https://ricardoheath.co.uk/">
+	<meta property="og:title" content="Syntax Highlighting With Visual Studio - Blog">
+	<meta property="og:url" content="https://ricardoheath.co.uk/posts/syntax-highlighting-with-visual-studio/">
 	<meta property="og:description" content="Programming blog about C&#43;&#43; and game development">
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="/blog/wave.ico">
 	<link rel="shortcut icon" href="/blog/wave.ico">
-	<title>Blog</title>
+	<title>Syntax Highlighting With Visual Studio | Blog</title>
 	
 	
 	
@@ -23,6 +22,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
 </head>
 
+<body>
 <section class="section" style="padding-bottom: 0px;">
   <div class="container">
     <nav class="nav">
@@ -53,29 +53,12 @@
 </section>
 
 <section class="section">
-	
-	<div class="container">
-<nav class="level is-mobile">
-  <div class="level-left">
-	<div class="level-item">
-	  
-	</div>
-  </div>
-  <div class="level-right is-marginless">
-	<div class="level-item">
-	  
-	</div>
-  </div>
-</nav>
-</div>
   <div class="container">
-	
-    <article>
-      <h1 class="title"><a href="https://ricardoheath.co.uk/posts/syntax-highlighting-with-visual-studio/">Syntax Highlighting With Visual Studio</a></h1>
+    <h1 class="title">Syntax Highlighting With Visual Studio</h1>
     <h2 class="subtitle is-6">2018-05-03, modified 2018-09-17 </h2>
-      
-      <div class="content">
-        <p>Typical syntax highlighters like <code>highlight.js</code> and <code>pygment</code> are only able to discern a limited amount of syntax information from standard text. Taking advantage of Visual Studio&rsquo;s syntax highlighting and the ability to <a href="https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.CopyAsHtml">Copy as HTML</a> allows me to get full syntax highlighting in these blog posts.
+    
+    <div class="content">
+      <p>Typical syntax highlighters like <code>highlight.js</code> and <code>pygment</code> are only able to discern a limited amount of syntax information from standard text. Taking advantage of Visual Studio&rsquo;s syntax highlighting and the ability to <a href="https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.CopyAsHtml">Copy as HTML</a> allows me to get full syntax highlighting in these blog posts.
 Here&rsquo;s a quick example of the difference:</p>
 
 <p>Using <code>highlight.js</code></p>
@@ -102,33 +85,22 @@ void register_rpc(HashedID name, F* func)
 <span class="operator">}</span></pre>
 
 <p></p>
-        
-        <a class="button is-link read-more" href="https://ricardoheath.co.uk/posts/syntax-highlighting-with-visual-studio/" style="height:28px;">
-          Read more
-          <span class="icon">
-            <i class="fa fa-angle-double-right"></i>
-          </span>
-        </a>
-        
-      </div>
-    </article>
+
+<p>The main difference (aside from the colour scheme) is that Visual Studio has full context information about the snippet, such as template types and alias&rsquo;s.</p>
+
+<p>There are two options when wanting to use VS syntax. The first option is to just use the default settings where inline CSS colours are applied to the tags encapsulating the code. This makes it super simple to get started but the ability to change the syntax colours in the future is lost.</p>
+
+<p>The second option is what I chose to do. I have <code>Copy As HTML</code> output CSS class&rsquo;s that I can then style myself. I did this by modifying some of the Copy As HTML settings and creating an appropriate CSS stylesheet. If you decide to go down this route you&rsquo;ll make your life so much easier if you edit the settings to output an additional class for the <code>pre</code> tag (I chose <code>visualstudio</code>), and to output syntax colours with classes so you can copy and paste the colours that get outputted and match them to the classes in your CSS file very quickly. Remember to make sure to disable the syntax colour output once you&rsquo;re done so that the inline CSS colours don&rsquo;t override your custom ones.</p>
+
+<p>The biggest downside with using Visual Studio is that in order to have this contextual syntax information you need to have a valid Visual Studio project open for anything remotely complex in order to copy and paste the syntax highlighting, so it makes it impossible to just write generic code snippets directly in to these blog posts in markdown if you want the full syntax highlighting. It also makes it difficult to edit or update any code in your blog as you have to open up the specific VS project it was originally in and edit it there before copying it over (or recreate it). Trying to apply syntax highlighting manually would take a lot of work setting up the CSS classes as there&rsquo;s often a class every few characters.</p>
+
+<p>The ideal situation is to have both options available. Use Visual Studio most of the time but fall back on standard syntax highlighters like <code>highlight.js</code> when you just need a quick code snippet. This is achievable, it just requires double the work as you&rsquo;ll need to modify the CSS of both syntax highlighters now to match eachother as closely as possible</p>
+    </div>
     
   </div>
-<div class="container">
-<nav class="level is-mobile">
-  <div class="level-left">
-	<div class="level-item">
-	  
-	</div>
-  </div>
-  <div class="level-right is-marginless">
-	<div class="level-item">
-	  
-	</div>
-  </div>
-</nav>
-</div>
 </section>
+
+
 <section class="section">
   <div class="container has-text-centered">
 	
@@ -164,4 +136,4 @@ if (!doNotTrack) {
 
 
 
-
+</body>

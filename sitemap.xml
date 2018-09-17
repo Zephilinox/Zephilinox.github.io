@@ -1,8 +1,83 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://zephilinox.github.io/</loc>
+    <loc>https://ricardoheath.co.uk/portfolio/entity-component-system/</loc>
+    <lastmod>2018-09-17T22:56:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ricardoheath.co.uk/portfolio/cowboys/</loc>
+    <lastmod>2018-09-17T22:56:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ricardoheath.co.uk/portfolio/warband---perisno/</loc>
+    <lastmod>2018-09-17T22:56:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ricardoheath.co.uk/portfolio/birdman/</loc>
+    <lastmod>2018-09-17T22:56:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ricardoheath.co.uk/portfolio/hexagonal-astar-pathfinding/</loc>
+    <lastmod>2018-09-17T22:56:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ricardoheath.co.uk/posts/syntax-highlighting-with-visual-studio/</loc>
+    <lastmod>2018-09-17T22:56:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ricardoheath.co.uk/portfolio/trove---improved-chat/</loc>
+    <lastmod>2018-09-17T22:56:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ricardoheath.co.uk/portfolio/warband---deathcam/</loc>
+    <lastmod>2018-09-17T22:56:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ricardoheath.co.uk/about/</loc>
+    <lastmod>2018-09-17T22:56:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ricardoheath.co.uk/portfolio/im-tools/</loc>
+    <lastmod>2018-09-17T22:56:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ricardoheath.co.uk/</loc>
+    <lastmod>2018-09-17T22:56:25+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ricardoheath.co.uk/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ricardoheath.co.uk/portfolio/</loc>
+    <lastmod>2018-09-17T22:56:25+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ricardoheath.co.uk/posts/</loc>
+    <lastmod>2018-09-17T22:56:25+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ricardoheath.co.uk/tags/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
