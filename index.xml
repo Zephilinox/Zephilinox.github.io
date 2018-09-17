@@ -13,10 +13,10 @@
     
     <item>
       <title>Entity Component System</title>
-      <link>https://ricardoheath.co.uk/portfolio/entity-component-system/</link>
+      <link>https://ricardoheath.co.uk/projects/entity-component-system/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ricardoheath.co.uk/portfolio/entity-component-system/</guid>
+      <guid>https://ricardoheath.co.uk/projects/entity-component-system/</guid>
       <description>&lt;p&gt;After reading the blog post on &lt;a href=&#34;http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/&#34;&gt;T-Machine&lt;/a&gt; I decided to create an &lt;a href=&#34;https://github.com/Zephilinox/ECS&#34;&gt;Entity Component System&lt;/a&gt; by using C++ and SFML. The ECS is unlike that present in Unity, as all components only contain data.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Cowboys</title>
-      <link>https://ricardoheath.co.uk/portfolio/cowboys/</link>
+      <link>https://ricardoheath.co.uk/projects/cowboys/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ricardoheath.co.uk/portfolio/cowboys/</guid>
+      <guid>https://ricardoheath.co.uk/projects/cowboys/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../cowboys.png&#34; alt=&#34;Cowboys&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -35,10 +35,10 @@
     
     <item>
       <title>Warband - Perisno</title>
-      <link>https://ricardoheath.co.uk/portfolio/warband---perisno/</link>
+      <link>https://ricardoheath.co.uk/projects/warband---perisno/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ricardoheath.co.uk/portfolio/warband---perisno/</guid>
+      <guid>https://ricardoheath.co.uk/projects/warband---perisno/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../perisno.png&#34; alt=&#34;Perisno&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -46,10 +46,10 @@
     
     <item>
       <title>Birdman</title>
-      <link>https://ricardoheath.co.uk/portfolio/birdman/</link>
+      <link>https://ricardoheath.co.uk/projects/birdman/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ricardoheath.co.uk/portfolio/birdman/</guid>
+      <guid>https://ricardoheath.co.uk/projects/birdman/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../birdman.png&#34; alt=&#34;Birdman&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -57,10 +57,10 @@
     
     <item>
       <title>Hexagonal A* Pathfinding</title>
-      <link>https://ricardoheath.co.uk/portfolio/hexagonal-astar-pathfinding/</link>
+      <link>https://ricardoheath.co.uk/projects/hexagonal-astar-pathfinding/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ricardoheath.co.uk/portfolio/hexagonal-astar-pathfinding/</guid>
+      <guid>https://ricardoheath.co.uk/projects/hexagonal-astar-pathfinding/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../galemp.png&#34; alt=&#34;Galactic Empires&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -103,10 +103,10 @@ void register_rpc(HashedID name, F* func)
     
     <item>
       <title>Trove - Improved Chat</title>
-      <link>https://ricardoheath.co.uk/portfolio/trove---improved-chat/</link>
+      <link>https://ricardoheath.co.uk/projects/trove---improved-chat/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ricardoheath.co.uk/portfolio/trove---improved-chat/</guid>
+      <guid>https://ricardoheath.co.uk/projects/trove---improved-chat/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../trove.png&#34; alt=&#34;Trove&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -114,10 +114,10 @@ void register_rpc(HashedID name, F* func)
     
     <item>
       <title>Warband - Deathcam</title>
-      <link>https://ricardoheath.co.uk/portfolio/warband---deathcam/</link>
+      <link>https://ricardoheath.co.uk/projects/warband---deathcam/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ricardoheath.co.uk/portfolio/warband---deathcam/</guid>
+      <guid>https://ricardoheath.co.uk/projects/warband---deathcam/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/apR14Cy5Tts&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -128,10 +128,10 @@ void register_rpc(HashedID name, F* func)
     
     <item>
       <title>IM Tools</title>
-      <link>https://ricardoheath.co.uk/portfolio/im-tools/</link>
+      <link>https://ricardoheath.co.uk/projects/im-tools/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ricardoheath.co.uk/portfolio/im-tools/</guid>
+      <guid>https://ricardoheath.co.uk/projects/im-tools/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../imtools.png&#34; alt=&#34;IM Tools&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

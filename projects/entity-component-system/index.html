@@ -5,13 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta content="C&#43;&#43;, Gamedev, Programming" name="keywords">
 	<meta content="Ricardo Heath" name="author">
-	<meta property="og:title" content="Categories - Blog">
-	<meta property="og:url" content="https://ricardoheath.co.uk/categories/">
+	<meta property="og:title" content="Entity Component System - Blog">
+	<meta property="og:url" content="https://ricardoheath.co.uk/projects/entity-component-system/">
 	<meta property="og:description" content="Programming blog about C&#43;&#43; and game development">
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="/blog/wave.ico">
 	<link rel="shortcut icon" href="/blog/wave.ico">
-	<title>Categories | Blog</title>
+	<title>Entity Component System | Blog</title>
 	
 	
 	
@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
 </head>
 
+<body>
 <section class="section" style="padding-bottom: 0px;">
   <div class="container">
     <nav class="nav">
@@ -52,38 +53,22 @@
 </section>
 
 <section class="section">
-<div class="container">
-<nav class="level is-mobile">
-  <div class="level-left">
-	<div class="level-item">
-	  
-	</div>
-  </div>
-  <div class="level-right is-marginless">
-	<div class="level-item">
-	  
-	</div>
-  </div>
-</nav>
-</div>
   <div class="container">
+    <h1 class="title">Entity Component System</h1>
+    <div class="content">
+      <p>After reading the blog post on <a href="http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/">T-Machine</a> I decided to create an <a href="https://github.com/Zephilinox/ECS">Entity Component System</a> by using C++ and SFML. The ECS is unlike that present in Unity, as all components only contain data.</p>
+
+<p></p>
+
+<p>Systems operate on groups of components which is how various functioality is implemented, such as movement, controls, and rendering. Each system has access to the EntityManager which in turn stores all Entities as lists of Components, using Variadic Templates to return specific subsets of entities based on the components they have.</p>
+
+<p>This ECS was written a long time ago, to the point where I&rsquo;ve struggled to find any other C++ implementation that outdates it. That said, it&rsquo;s incredibly basic, incredibly rough, doesn&rsquo;t handle all the things you&rsquo;d want an ECS to handle, and isn&rsquo;t as performant as you&rsquo;d want an ECS to be. It was an interesting project that I never fully finished.</p>
+    </div>
     
   </div>
-<div class="container">
-<nav class="level is-mobile">
-  <div class="level-left">
-	<div class="level-item">
-	  
-	</div>
-  </div>
-  <div class="level-right is-marginless">
-	<div class="level-item">
-	  
-	</div>
-  </div>
-</nav>
-</div>
 </section>
+
+
 <section class="section">
   <div class="container has-text-centered">
 	
@@ -119,3 +104,4 @@ if (!doNotTrack) {
 
 
 
+</body>
