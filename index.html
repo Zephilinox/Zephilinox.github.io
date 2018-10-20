@@ -70,49 +70,6 @@
 </div>
   <div class="container">
 	
-    <article>
-      <h1 class="title"><a href="https://ricardoheath.co.uk/posts/syntax-highlighting-with-visual-studio/">Syntax Highlighting With Visual Studio</a></h1>
-    <h2 class="subtitle is-6">2018-05-03, modified 2018-09-17 </h2>
-      
-      <div class="content">
-        <p>Typical syntax highlighters like <code>highlight.js</code> and <code>pygment</code> are only able to discern a limited amount of syntax information from standard text. Taking advantage of Visual Studio&rsquo;s syntax highlighting and the ability to <a href="https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.CopyAsHtml">Copy as HTML</a> allows me to get full syntax highlighting in these blog posts.
-Here&rsquo;s a quick example of the difference:</p>
-
-<p>Using <code>highlight.js</code></p>
-
-<pre><code class="language-cpp">template &lt;typename F&gt;
-void register_rpc(HashedID name, F* func)
-{
-    static_assert(std::is_void&lt;rpc&lt;F&gt;::return_type&gt;::value,
-        &quot;You can't register a function as an RPC if it returns a non-void type&quot;);
-    rpc&lt;F&gt; rpc;
-    rpc.add_rpc(name, func);
-}
-</code></pre>
-
-<p>Using <code>Visual Studio 2017</code></p>
-
-<pre class="visualstudio"><span class="keyword">template</span>&nbsp;<span class="operator">&lt;</span><span class="keyword">typename</span>&nbsp;<span class="cppType - identifier - (TRANSIENT)">F</span><span class="operator">&gt;</span>
-<span class="keyword">void</span>&nbsp;<span class="cppFunctionTemplate - identifier - (TRANSIENT)">register_rpc</span><span class="operator">(</span><span class="cppType - identifier - (TRANSIENT)">HashedID</span>&nbsp;<span class="cppParameter - identifier - (TRANSIENT)">name</span><span class="operator">,</span>&nbsp;<span class="cppType - identifier - (TRANSIENT)">F</span><span class="operator">*</span>&nbsp;<span class="cppParameter - identifier - (TRANSIENT)">func</span><span class="operator">)</span>
-<span class="operator">{</span>
-    <span class="keyword">static_assert</span><span class="operator">(</span><span class="cppNamespace - identifier - (TRANSIENT)">std</span><span class="operator">::</span><span class="cppType - identifier - (TRANSIENT)">is_void</span><span class="operator">&lt;</span><span class="cppType - identifier - (TRANSIENT)">rpc</span><span class="operator">&lt;</span><span class="cppType - identifier - (TRANSIENT)">F</span><span class="operator">&gt;::</span><span class="identifier">return_type</span><span class="operator">&gt;::</span><span class="identifier">value</span><span class="operator">,</span>
-        <span class="string">&quot;You&nbsp;can&#39;t&nbsp;register&nbsp;a&nbsp;function&nbsp;as&nbsp;an&nbsp;RPC&nbsp;if&nbsp;it&nbsp;returns&nbsp;a&nbsp;non-void&nbsp;type&quot;</span><span class="operator">);</span>
-    <span class="cppType - identifier - (TRANSIENT)">rpc</span><span class="operator">&lt;</span><span class="cppType - identifier - (TRANSIENT)">F</span><span class="operator">&gt;</span>&nbsp;<span class="cppLocalVariable - identifier - (TRANSIENT)">rpc</span><span class="operator">;</span>
-    <span class="cppLocalVariable - identifier - (TRANSIENT)">rpc</span><span class="operator">.</span><span class="identifier">add_rpc</span><span class="operator">(</span><span class="cppParameter - identifier - (TRANSIENT)">name</span><span class="operator">,</span>&nbsp;<span class="cppParameter - identifier - (TRANSIENT)">func</span><span class="operator">);</span>
-<span class="operator">}</span></pre>
-
-<p></p>
-        
-        <a class="button is-link read-more" href="https://ricardoheath.co.uk/posts/syntax-highlighting-with-visual-studio/" style="height:28px;">
-          Read more
-          <span class="icon">
-            <i class="fa fa-angle-double-right"></i>
-          </span>
-        </a>
-        
-      </div>
-    </article>
-    
   </div>
 <div class="container">
 <nav class="level is-mobile">

@@ -67,41 +67,6 @@
     </item>
     
     <item>
-      <title>Syntax Highlighting With Visual Studio</title>
-      <link>https://ricardoheath.co.uk/posts/syntax-highlighting-with-visual-studio/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ricardoheath.co.uk/posts/syntax-highlighting-with-visual-studio/</guid>
-      <description>&lt;p&gt;Typical syntax highlighters like &lt;code&gt;highlight.js&lt;/code&gt; and &lt;code&gt;pygment&lt;/code&gt; are only able to discern a limited amount of syntax information from standard text. Taking advantage of Visual Studio&amp;rsquo;s syntax highlighting and the ability to &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.CopyAsHtml&#34;&gt;Copy as HTML&lt;/a&gt; allows me to get full syntax highlighting in these blog posts.
-Here&amp;rsquo;s a quick example of the difference:&lt;/p&gt;
-
-&lt;p&gt;Using &lt;code&gt;highlight.js&lt;/code&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-cpp&#34;&gt;template &amp;lt;typename F&amp;gt;
-void register_rpc(HashedID name, F* func)
-{
-    static_assert(std::is_void&amp;lt;rpc&amp;lt;F&amp;gt;::return_type&amp;gt;::value,
-        &amp;quot;You can&#39;t register a function as an RPC if it returns a non-void type&amp;quot;);
-    rpc&amp;lt;F&amp;gt; rpc;
-    rpc.add_rpc(name, func);
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Using &lt;code&gt;Visual Studio 2017&lt;/code&gt;&lt;/p&gt;
-
-&lt;pre class=&#34;visualstudio&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;template&lt;/span&gt;&amp;nbsp;&lt;span class=&#34;operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;keyword&#34;&gt;typename&lt;/span&gt;&amp;nbsp;&lt;span class=&#34;cppType - identifier - (TRANSIENT)&#34;&gt;F&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;keyword&#34;&gt;void&lt;/span&gt;&amp;nbsp;&lt;span class=&#34;cppFunctionTemplate - identifier - (TRANSIENT)&#34;&gt;register_rpc&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;cppType - identifier - (TRANSIENT)&#34;&gt;HashedID&lt;/span&gt;&amp;nbsp;&lt;span class=&#34;cppParameter - identifier - (TRANSIENT)&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;,&lt;/span&gt;&amp;nbsp;&lt;span class=&#34;cppType - identifier - (TRANSIENT)&#34;&gt;F&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;*&lt;/span&gt;&amp;nbsp;&lt;span class=&#34;cppParameter - identifier - (TRANSIENT)&#34;&gt;func&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;)&lt;/span&gt;
-&lt;span class=&#34;operator&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;keyword&#34;&gt;static_assert&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;cppNamespace - identifier - (TRANSIENT)&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;cppType - identifier - (TRANSIENT)&#34;&gt;is_void&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;cppType - identifier - (TRANSIENT)&#34;&gt;rpc&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;cppType - identifier - (TRANSIENT)&#34;&gt;F&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;&amp;gt;::&lt;/span&gt;&lt;span class=&#34;identifier&#34;&gt;return_type&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;&amp;gt;::&lt;/span&gt;&lt;span class=&#34;identifier&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;,&lt;/span&gt;
-        &lt;span class=&#34;string&#34;&gt;&amp;quot;You&amp;nbsp;can&amp;#39;t&amp;nbsp;register&amp;nbsp;a&amp;nbsp;function&amp;nbsp;as&amp;nbsp;an&amp;nbsp;RPC&amp;nbsp;if&amp;nbsp;it&amp;nbsp;returns&amp;nbsp;a&amp;nbsp;non-void&amp;nbsp;type&amp;quot;&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;);&lt;/span&gt;
-    &lt;span class=&#34;cppType - identifier - (TRANSIENT)&#34;&gt;rpc&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;cppType - identifier - (TRANSIENT)&#34;&gt;F&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;&amp;gt;&lt;/span&gt;&amp;nbsp;&lt;span class=&#34;cppLocalVariable - identifier - (TRANSIENT)&#34;&gt;rpc&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;cppLocalVariable - identifier - (TRANSIENT)&#34;&gt;rpc&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;identifier&#34;&gt;add_rpc&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;cppParameter - identifier - (TRANSIENT)&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;,&lt;/span&gt;&amp;nbsp;&lt;span class=&#34;cppParameter - identifier - (TRANSIENT)&#34;&gt;func&lt;/span&gt;&lt;span class=&#34;operator&#34;&gt;);&lt;/span&gt;
-&lt;span class=&#34;operator&#34;&gt;}&lt;/span&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Trove - Improved Chat</title>
       <link>https://ricardoheath.co.uk/projects/trove---improved-chat/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
