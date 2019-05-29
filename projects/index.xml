@@ -1,15 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Blog</title>
+    <title>Projects on Ricardo Heath</title>
     <link>https://ricardoheath.co.uk/projects/</link>
-    <description>Recent content in Projects on Blog</description>
+    <description>Recent content in Projects on Ricardo Heath</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 03 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ricardoheath.co.uk/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CDCGAN</title>
+      <link>https://ricardoheath.co.uk/projects/cdcgan/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricardoheath.co.uk/projects/cdcgan/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/NBEB2Dkw1aE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;A conditional deep convolutional generative adversarial network made to create unique minecraft texture packs using Python and Keras. Made in 5 weeks for a university module.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>EnkiNet</title>
+      <link>https://ricardoheath.co.uk/projects/enkinet/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricardoheath.co.uk/projects/enkinet/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/YaYw5OSId7s&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;My networking dissertation (2018 / 2019) for implementing a HLAPI integrated in to a 2D scenegraph framework.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RTS Framework &amp; Prototype</title>
+      <link>https://ricardoheath.co.uk/projects/rts/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricardoheath.co.uk/projects/rts/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/kowQeYRZGaw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;An &amp;ldquo;RTS Game&amp;rdquo; made using Win32 and DirectX11 using C++17 in 5 weeks for a university module.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raytracer</title>
+      <link>https://ricardoheath.co.uk/projects/raytracer/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricardoheath.co.uk/projects/raytracer/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/MS9azYZO7zQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;A raytracer made using Rust following Pete Sirleys ebooks, with a BVH. Made in 5 weeks for a university module.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cowboys</title>
+      <link>https://ricardoheath.co.uk/projects/cowboys/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricardoheath.co.uk/projects/cowboys/</guid>
+      <description>Cowboys is a networked, turn-based startegy game where you control a team of 5 differnt cowboys and battle it out against another player.
+Click on units to select them and then right click on a tile to path towards it. If you right click an enemy unit, your unit will fire at them.
+Once you&amp;rsquo;re done with your units actions hit end turn and the next player will be able to control one of their units.</description>
+    </item>
     
     <item>
       <title>Entity Component System</title>
@@ -23,25 +98,13 @@
     </item>
     
     <item>
-      <title>Cowboys</title>
-      <link>https://ricardoheath.co.uk/projects/cowboys/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ricardoheath.co.uk/projects/cowboys/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../cowboys.png&#34; alt=&#34;Cowboys&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Warband - Perisno</title>
       <link>https://ricardoheath.co.uk/projects/warband---perisno/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ricardoheath.co.uk/projects/warband---perisno/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../perisno.png&#34; alt=&#34;Perisno&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>Perisno is a mod for Mount &amp;amp; Blade Warband. I was part of the group for over half a year during which time I was the lead programmer.
+Perisno is ranked #147 out of over 25,000 mods on ModDB with almost 400,000 downloads, with another 60,000 downloads from NexusMods. Perisno has 80,000 subscribers on Steam Workshop where it is the ranked #6 for the most subscribed and #7 for the top rated mods of all time for Warband.</description>
     </item>
     
     <item>
@@ -50,9 +113,9 @@
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ricardoheath.co.uk/projects/birdman/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../birdman.png&#34; alt=&#34;Birdman&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>A simple interactive story game based on birdman for LLP. You play as an actor and have to make decisions about the way the story progresses. Test out the audiences reaction during the two rehearsels, and then get your final score at the end of the opening night itself.
+Use W and S and Enter to select options, ESC to open the pause menu.
+Birdman on Github</description>
     </item>
     
     <item>
@@ -61,9 +124,8 @@
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ricardoheath.co.uk/projects/hexagonal-astar-pathfinding/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../galemp.png&#34; alt=&#34;Galactic Empires&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>The project Galactic Empires was meant to be a 4x space game made in C++ with SFML, CEGUI, Thor, Lua, and LuaBridge.
+Development stopped shortly after due to the realisation of the huge scope of such a project and the lack of experience to finish it. It mainly features A* Pathfinding on a Hexagonal Grid, as well as Lua Integration, CEGUI Integration, and State Management.</description>
     </item>
     
     <item>
@@ -72,9 +134,8 @@
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ricardoheath.co.uk/projects/trove---improved-chat/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../trove.png&#34; alt=&#34;Trove&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>I created Improved Chat, the first mod for the MMORPG Trove that modified game logic by using RABCDAsm to dissassemble and reassemble Actionscript files used for the client-side UI of the Chat System, by editing raw ASM.
+This mod made a variety of improvements to the default Trove Chat UI such as clearer colours and an expanded view. It led the way for other modders within the community to create mods with access to the client-side code.</description>
     </item>
     
     <item>
@@ -97,9 +158,7 @@
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ricardoheath.co.uk/projects/im-tools/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../imtools.png&#34; alt=&#34;IM Tools&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>IM Tools was a local DIY store near my college. Our assignment was to design and create a possible website for their review. It can be found here</description>
     </item>
     
   </channel>
