@@ -12,22 +12,6 @@
     
     
     <item>
-      <title>CDCGAN</title>
-      <link>https://ricardoheath.co.uk/projects/cdcgan/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ricardoheath.co.uk/projects/cdcgan/</guid>
-      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/NBEB2Dkw1aE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;A conditional deep convolutional generative adversarial network made to create unique minecraft texture packs using Python and Keras. Made in 5 weeks for a university module.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>EnkiNet</title>
       <link>https://ricardoheath.co.uk/projects/enkinet/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
@@ -38,7 +22,18 @@
 &lt;/div&gt;
 
 
-&lt;p&gt;My networking dissertation (2018 / 2019) for implementing a HLAPI integrated in to a 2D scenegraph framework.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Zephilinox/EnkiNet&#34;&gt;EnkiNet&lt;/a&gt; is my networking dissertation (2018 / 2019), creating a C++17 high-level networking API integrated with a 2D scenegraph framework.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kachiku Level Editor</title>
+      <link>https://ricardoheath.co.uk/projects/level-editor/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricardoheath.co.uk/projects/level-editor/</guid>
+      <description>&lt;p&gt;Kachiku is a university project that has been worked on across two different years by ~50 different students. Myself and 3 others inherited the level editor project made with Unity for the game and were tasked with improving it.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
@@ -54,7 +49,28 @@
 &lt;/div&gt;
 
 
-&lt;p&gt;An &amp;ldquo;RTS Game&amp;rdquo; made using Win32 and DirectX11 using C++17 in 5 weeks for a university module.&lt;/p&gt;
+&lt;p&gt;A 3D &lt;a href=&#34;https://github.com/Zephilinox/DirectX11-RTS&#34;&gt;RTS &amp;ldquo;Game&amp;rdquo;&lt;/a&gt; made using Win32 and DirectX11, written in C++17 in 5 weeks for a university module.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Engine27</title>
+      <link>https://ricardoheath.co.uk/projects/engine27/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricardoheath.co.uk/projects/engine27/</guid>
+      <description>&lt;p&gt;Engine27 is a 2D game engine written in C++17 that I&amp;rsquo;m working on with a friend, using DirectX 11 and Win32. Currently the DirectX Renderer is fully working, capable of sorting and drawing 100k sprites at 60fps with minimal draw calls due to instancing and texture atlas support.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Entity Component System</title>
+      <link>https://ricardoheath.co.uk/projects/entity-component-system/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricardoheath.co.uk/projects/entity-component-system/</guid>
+      <description>&lt;p&gt;After reading the blog post on &lt;a href=&#34;http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/&#34;&gt;T-Machine&lt;/a&gt; I decided to create an &lt;a href=&#34;https://github.com/Zephilinox/ECS&#34;&gt;Entity Component System&lt;/a&gt; in 2012 by using C++ and SFML. The ECS is unlike that present in Unity, as all components only contain data.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
@@ -70,52 +86,52 @@
 &lt;/div&gt;
 
 
-&lt;p&gt;A raytracer made using Rust following Pete Sirleys ebooks, with a BVH. Made in 5 weeks for a university module.&lt;/p&gt;
+&lt;p&gt;A &lt;a href=&#34;https://github.com/Zephilinox/Raytracer&#34;&gt;Raytracer&lt;/a&gt; made using Rust following Pete Shirleys ebooks, with a BVH. Made in 5 weeks for a university module.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Cowboys</title>
-      <link>https://ricardoheath.co.uk/projects/cowboys/</link>
+      <title>CDCGAN</title>
+      <link>https://ricardoheath.co.uk/projects/cdcgan/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ricardoheath.co.uk/projects/cowboys/</guid>
-      <description>Cowboys is a networked, turn-based startegy game where you control a team of 5 differnt cowboys and battle it out against another player.
-Click on units to select them and then right click on a tile to path towards it. If you right click an enemy unit, your unit will fire at them.
-Once you&amp;rsquo;re done with your units actions hit end turn and the next player will be able to control one of their units.</description>
-    </item>
-    
-    <item>
-      <title>Entity Component System</title>
-      <link>https://ricardoheath.co.uk/projects/entity-component-system/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ricardoheath.co.uk/projects/entity-component-system/</guid>
-      <description>&lt;p&gt;After reading the blog post on &lt;a href=&#34;http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/&#34;&gt;T-Machine&lt;/a&gt; I decided to create an &lt;a href=&#34;https://github.com/Zephilinox/ECS&#34;&gt;Entity Component System&lt;/a&gt; by using C++ and SFML. The ECS is unlike that present in Unity, as all components only contain data.&lt;/p&gt;
+      <guid>https://ricardoheath.co.uk/projects/cdcgan/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/NBEB2Dkw1aE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Zephilinox/CDCGAN&#34;&gt;CDCGAN&lt;/a&gt; is a conditional deep convolutional generative adversarial network made to create unique minecraft texture packs using Python and Keras. Made in 5 weeks for a university module.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Warband - Perisno</title>
-      <link>https://ricardoheath.co.uk/projects/warband---perisno/</link>
+      <title>Platform System</title>
+      <link>https://ricardoheath.co.uk/projects/platform-system/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ricardoheath.co.uk/projects/warband---perisno/</guid>
-      <description>Perisno is a mod for Mount &amp;amp; Blade Warband. I was part of the group for over half a year during which time I was the lead programmer.
-Perisno is ranked #147 out of over 25,000 mods on ModDB with almost 400,000 downloads, with another 60,000 downloads from NexusMods. Perisno has 80,000 subscribers on Steam Workshop where it is the ranked #6 for the most subscribed and #7 for the top rated mods of all time for Warband.</description>
+      <guid>https://ricardoheath.co.uk/projects/platform-system/</guid>
+      <description>&lt;p&gt;I made a system in unity to create nice platforms for the 3D platforming &lt;a href=&#34;../games/slime-game&#34;&gt;Slime Game&lt;/a&gt; with helpful debug displays, a variety of controls, smooth catmul-rom spline interpolation, and other polish like tilting based on the  players position on the platform and sine wave offsets.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Birdman</title>
-      <link>https://ricardoheath.co.uk/projects/birdman/</link>
+      <title>Audio Visual Production</title>
+      <link>https://ricardoheath.co.uk/projects/audio-visual-production/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ricardoheath.co.uk/projects/birdman/</guid>
-      <description>A simple interactive story game based on birdman for LLP. You play as an actor and have to make decisions about the way the story progresses. Test out the audiences reaction during the two rehearsels, and then get your final score at the end of the opening night itself.
-Use W and S and Enter to select options, ESC to open the pause menu.
-Birdman on Github</description>
+      <guid>https://ricardoheath.co.uk/projects/audio-visual-production/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/CGQaC09MuTs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;For a university module myself and a team of a few others used Unity to create an Audio-Visual Advert. Within the team I was primarily responsible for the audio, while also helping with scene creation, lighting, scripting, and cameras.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -124,32 +140,8 @@ Birdman on Github</description>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ricardoheath.co.uk/projects/hexagonal-astar-pathfinding/</guid>
-      <description>The project Galactic Empires was meant to be a 4x space game made in C++ with SFML, CEGUI, Thor, Lua, and LuaBridge.
-Development stopped shortly after due to the realisation of the huge scope of such a project and the lack of experience to finish it. It mainly features A* Pathfinding on a Hexagonal Grid, as well as Lua Integration, CEGUI Integration, and State Management.</description>
-    </item>
-    
-    <item>
-      <title>Trove - Improved Chat</title>
-      <link>https://ricardoheath.co.uk/projects/trove---improved-chat/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ricardoheath.co.uk/projects/trove---improved-chat/</guid>
-      <description>I created Improved Chat, the first mod for the MMORPG Trove that modified game logic by using RABCDAsm to dissassemble and reassemble Actionscript files used for the client-side UI of the Chat System, by editing raw ASM.
-This mod made a variety of improvements to the default Trove Chat UI such as clearer colours and an expanded view. It led the way for other modders within the community to create mods with access to the client-side code.</description>
-    </item>
-    
-    <item>
-      <title>Warband - Deathcam</title>
-      <link>https://ricardoheath.co.uk/projects/warband---deathcam/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ricardoheath.co.uk/projects/warband---deathcam/</guid>
-      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/apR14Cy5Tts&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Zephilinox/GalacticEmpires&#34;&gt;Galactic Empires&lt;/a&gt; was meant to be a 4x space game made in C++ with SFML, CEGUI, Thor, Lua, and LuaBridge. Development stopped shortly after due to the realisation of the huge scope of such a project and the lack of experience to finish it. It mainly features A* Pathfinding on a Hexagonal Grid, as well as Lua Integration, CEGUI Integration, and State Management.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -158,7 +150,8 @@ This mod made a variety of improvements to the default Trove Chat UI such as cle
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ricardoheath.co.uk/projects/im-tools/</guid>
-      <description>IM Tools was a local DIY store near my college. Our assignment was to design and create a possible website for their review. It can be found here</description>
+      <description>&lt;p&gt;IM Tools was a local DIY store near my college. Our assignment was to design and create a possible website for their review. It can be found &lt;a href=&#34;../../IMTools&#34;&gt;here&lt;/a&gt;.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

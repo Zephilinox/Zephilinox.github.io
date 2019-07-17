@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mods on Ricardo Heath</title>
+    <link>https://ricardoheath.co.uk/mods/</link>
+    <description>Recent content in Mods on Ricardo Heath</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ricardoheath.co.uk/mods/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Warband - Perisno</title>
+      <link>https://ricardoheath.co.uk/mods/warband---perisno/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricardoheath.co.uk/mods/warband---perisno/</guid>
+      <description>&lt;p&gt;Perisno is a mod for Mount &amp;amp; Blade Warband. I was part of the modding team for several years as the main programmer. Perisno is ranked #25 out of over 25,000 mods on &lt;a href=&#34;http://www.moddb.com/mods/perisno/stats&#34;&gt;ModDB&lt;/a&gt; with almost 600,000 downloads, with another 60,000 downloads from &lt;a href=&#34;http://www.nexusmods.com/mbwarband/mods/3980/?&#34;&gt;NexusMods&lt;/a&gt;. Perisno has 150,000 subscribers on &lt;a href=&#34;https://steamcommunity.com/sharedfiles/filedetails/?id=316610148&#34;&gt;Steam Workshop&lt;/a&gt; where it is the ranked #6 for the most subscribed and #7 for the top rated mods of all time for Warband. (Stats as of 2019)
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>DnD 5e - Make-A-Warforged</title>
+      <link>https://ricardoheath.co.uk/mods/warforged/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricardoheath.co.uk/mods/warforged/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://homebrewery.naturalcrit.com/share/r1uX6ULDZ&#34;&gt;Make-A-Warforged&lt;/a&gt; is a homebrew race for Dungeons and Dragons 5th edition, with a unique design that allows players to customise their warforged character without overpowering those of other players. It has been viewed over 15,000 times.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Trove - Improved Chat</title>
+      <link>https://ricardoheath.co.uk/mods/trove---improved-chat/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricardoheath.co.uk/mods/trove---improved-chat/</guid>
+      <description>&lt;p&gt;I created &lt;a href=&#34;http://www.trovesaurus.com/mod=1020/improved-chat&#34;&gt;Improved Chat&lt;/a&gt;, the first mod for the MMORPG Trove that modified game logic by using &lt;a href=&#34;https://github.com/CyberShadow/RABCDAsm&#34;&gt;RABCDAsm&lt;/a&gt; to dissassemble and reassemble Actionscript files used for the client-side UI of the Chat System, by editing raw ASM.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Warband - Deathcam</title>
+      <link>https://ricardoheath.co.uk/mods/warband---deathcam/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricardoheath.co.uk/mods/warband---deathcam/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/apR14Cy5Tts&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;I created a &lt;a href=&#34;https://forums.taleworlds.com/index.php?topic=282550.0&#34;&gt;Deathcam&lt;/a&gt; script for Mount &amp;amp; Blade Warband and released it to the community. It has been used in a variety of complete overhaul mods such as &lt;a href=&#34;https://steamcommunity.com/sharedfiles/filedetails/?id=285786182&#34;&gt;Gekokujo&lt;/a&gt;, &lt;a href=&#34;https://steamcommunity.com/sharedfiles/filedetails/?id=316610148&#34;&gt;Perisno&lt;/a&gt;, and &lt;a href=&#34;https://steamcommunity.com/sharedfiles/filedetails/?id=498482336&#34;&gt;Nova Aetas&lt;/a&gt; (ranked #3, #6, and #9 on Steam Workshop for most subscribed Warband Mods, respectively).&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Terraria - Chat Notifications</title>
+      <link>https://ricardoheath.co.uk/mods/terraria---chat-notifications/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricardoheath.co.uk/mods/terraria---chat-notifications/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Zephilinox/ZephsChatNotifications&#34;&gt;Terraria Chat Notifications&lt;/a&gt; is a mod which informs players on a server when another player has crafted and picked up certain items, like boss loot.
+&lt;/br&gt;
+This mod has over 1000 downloads.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Terraria - Improved Tooltips</title>
+      <link>https://ricardoheath.co.uk/mods/terraria---improved-tooltips/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ricardoheath.co.uk/mods/terraria---improved-tooltips/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Zephilinox/ZephsImprovedtooltips&#34;&gt;Terraria Improved Tooltips&lt;/a&gt; is a client-side mod that adds additional information and improvements to tooltips such as detailed statistics like damage per second. This mod has over 2000 downloads.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
