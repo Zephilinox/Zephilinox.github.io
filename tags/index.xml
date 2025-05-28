@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ricardo Heath</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://ricardoheath.co.uk/tags/</link>
     <description>Recent content in Tags on Ricardo Heath</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 May 2025 00:25:42 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 May 2025 01:29:52 +0100</lastBuildDate>
+    <atom:link href="https://ricardoheath.co.uk/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C&#43;&#43;</title>
-      <link>http://localhost:1313/tags/c&#43;&#43;/</link>
+      <link>https://ricardoheath.co.uk/tags/c&#43;&#43;/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/c&#43;&#43;/</guid>
+      <guid>https://ricardoheath.co.uk/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
       <title>Csharp</title>
-      <link>http://localhost:1313/tags/csharp/</link>
+      <link>https://ricardoheath.co.uk/tags/csharp/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/csharp/</guid>
+      <guid>https://ricardoheath.co.uk/tags/csharp/</guid>
       <description></description>
     </item>
     <item>
       <title>Gamedev</title>
-      <link>http://localhost:1313/tags/gamedev/</link>
+      <link>https://ricardoheath.co.uk/tags/gamedev/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gamedev/</guid>
+      <guid>https://ricardoheath.co.uk/tags/gamedev/</guid>
       <description></description>
     </item>
     <item>
       <title>Modding</title>
-      <link>http://localhost:1313/tags/modding/</link>
+      <link>https://ricardoheath.co.uk/tags/modding/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/modding/</guid>
+      <guid>https://ricardoheath.co.uk/tags/modding/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
+      <link>https://ricardoheath.co.uk/tags/python/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/python/</guid>
+      <guid>https://ricardoheath.co.uk/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Rust</title>
-      <link>http://localhost:1313/tags/rust/</link>
+      <link>https://ricardoheath.co.uk/tags/rust/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rust/</guid>
+      <guid>https://ricardoheath.co.uk/tags/rust/</guid>
       <description></description>
     </item>
     <item>
       <title>Unity</title>
-      <link>http://localhost:1313/tags/unity/</link>
+      <link>https://ricardoheath.co.uk/tags/unity/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/unity/</guid>
+      <guid>https://ricardoheath.co.uk/tags/unity/</guid>
       <description></description>
     </item>
     <item>
       <title>Webdev</title>
-      <link>http://localhost:1313/tags/webdev/</link>
+      <link>https://ricardoheath.co.uk/tags/webdev/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/webdev/</guid>
+      <guid>https://ricardoheath.co.uk/tags/webdev/</guid>
       <description></description>
     </item>
   </channel>
