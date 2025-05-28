@@ -6,7 +6,7 @@
     <description>Recent content in Projects on Ricardo Heath</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 May 2025 16:56:35 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2025 17:38:10 +0100</lastBuildDate>
     <atom:link href="https://ricardoheath.co.uk/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stardelve - Read &amp; Publish SciFi Stories</title>
@@ -44,6 +44,13 @@
       <description>&lt;p&gt;Kachiku is a university project that has been worked on across two different years by ~50 different students. Myself and 3 others inherited the level editor project made with Unity for the game and were tasked with improving it.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Single Page Website</title>
+      <link>https://ricardoheath.co.uk/projects/anapop/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/anapop/</guid>
+      <description>&lt;p&gt;I built &lt;a href=&#34;https://anapop.casa&#34;&gt;Anapop.casa&lt;/a&gt;, a personal one-page website for a friend of mine that was looking to provide a dogwalking and petsitting service. It was built using Astro and has i18n support for Portuguese, as well as English&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>WASM C&#43;&#43; &amp; CMake Template</title>
       <link>https://ricardoheath.co.uk/projects/c&#43;&#43;-emscripten-template/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
@@ -51,14 +58,21 @@
       <description>&lt;p&gt;&lt;a href=&#34;https://ricardoheath.co.uk/emscripten-cpp-cmake-template/&#34;&gt;Demo&lt;/a&gt;. I released &lt;a href=&#34;https://github.com/Zephilinox/emscripten-cpp-cmake-template&#34;&gt;this&lt;/a&gt; Github Template to set up a new repo that had full support for running C++ on the web via WASM, using Emscripten, alongside all the required libraries, integrations, best practices, and build systems with CI/CD&lt;/p&gt;</description>
     </item>
     <item>
+      <title>NES CPU Emulator</title>
+      <link>https://ricardoheath.co.uk/projects/nes-emulator/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/nes-emulator/</guid>
+      <description>&lt;p&gt;I built a NES CPU Emulator called &lt;a href=&#34;https://github.com/Zephilinox/SCONES&#34;&gt;SCONES&lt;/a&gt; using C++17 (well, it was meant to be a full emulator, but I only got as far as the CPU 😂)&lt;/p&gt;&#xA;&lt;p&gt;It uses an instruction table that leverages a templated function pointer as a non-type template parameter to create multiple different functions for each type of instruction, and has tests to ensure the CPU is working correctly&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Engine27</title>
       <link>https://ricardoheath.co.uk/projects/engine27/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/engine27/</guid>
-      <description>&lt;p&gt;Engine27 is a 2D game engine written in C++17 that I&amp;rsquo;m working on with a friend, using DirectX 11 and Win32. Currently the DirectX Renderer is fully working, capable of sorting and drawing 100k sprites at 60fps with minimal draw calls due to instancing and texture atlas support.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Engine27 was a 2D game engine written in C++17 that I worked on with a friend, using DirectX 11 and Win32. The DirectX Renderer is fully working, capable of sorting and drawing 100k transparent sprites at 60fps with minimal draw calls due to instancing and texture atlas support&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Raytracer</title>
+      <title>Rust Raytracer</title>
       <link>https://ricardoheath.co.uk/projects/raytracer/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/raytracer/</guid>
@@ -70,6 +84,13 @@
       <pubDate>Sat, 01 Jun 2013 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/entity-component-system/</guid>
       <description>&lt;p&gt;After reading the blog post on &lt;a href=&#34;http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/&#34;&gt;T-Machine&lt;/a&gt; I decided to create an &lt;a href=&#34;https://github.com/Zephilinox/ECS&#34;&gt;Entity Component System&lt;/a&gt; in 2012 by using C++ and SFML. The ECS is unlike that present in Unity, as all components only contain data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>C&#43;&#43; Raytracer</title>
+      <link>https://ricardoheath.co.uk/projects/ricochet/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/ricochet/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/n4FGKbaIaFw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;I built a &amp;ldquo;real-time&amp;rdquo; Raytracer called &lt;a href=&#34;https://github.com/Zephilinox/Ricochet&#34;&gt;Ricochet&lt;/a&gt; with C++17&lt;/p&gt;</description>
     </item>
     <item>
       <title>Threadpool</title>
@@ -91,6 +112,13 @@
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/platform-system/</guid>
       <description>&lt;p&gt;I made a system in unity to create nice platforms for the 3D platforming &lt;a href=&#34;https://ricardoheath.co.uk/games/slime-game&#34;&gt;Slime Game&lt;/a&gt; with helpful debug displays, a variety of controls, smooth catmul-rom spline interpolation, and other polish like tilting based on the players position on the platform and sine wave offsets.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Portfolio</title>
+      <link>https://ricardoheath.co.uk/projects/portfolio/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/portfolio/</guid>
+      <description>&lt;p&gt;This portfolio website was built using Hugo, a Static Site generator for markdown files, written in Go. It gets automatically built and published on every change by Github Actions&lt;/p&gt;</description>
     </item>
     <item>
       <title>Audio Visual Production</title>

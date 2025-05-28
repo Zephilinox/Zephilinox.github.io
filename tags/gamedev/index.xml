@@ -6,7 +6,7 @@
     <description>Recent content in Gamedev on Ricardo Heath</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 May 2025 16:05:46 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2025 17:38:10 +0100</lastBuildDate>
     <atom:link href="https://ricardoheath.co.uk/tags/gamedev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Evercore Heroes</title>
@@ -30,13 +30,6 @@
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/kowQeYRZGaw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;A 3D &lt;a href=&#34;https://github.com/Zephilinox/DirectX11-RTS&#34;&gt;RTS &amp;ldquo;Game&amp;rdquo;&lt;/a&gt; made using Win32 and DirectX11, written in C++17 in 5 weeks for a university module.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Cowboys</title>
-      <link>https://ricardoheath.co.uk/games/cowboys/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://ricardoheath.co.uk/games/cowboys/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Zephilinox/Cowboys&#34;&gt;Cowboys&lt;/a&gt; is a networked, turn-based startegy game where you control a team of 5 different cowboys and battle it out against another player. Written in C++17 for a university module. I was primarily responsible for creating the networking system and other engine architecture, such as multiple audio backends, state manager, message queue, and signal &amp;amp; slots.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Kachiku Level Editor</title>
       <link>https://ricardoheath.co.uk/projects/level-editor/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
@@ -44,18 +37,25 @@
       <description>&lt;p&gt;Kachiku is a university project that has been worked on across two different years by ~50 different students. Myself and 3 others inherited the level editor project made with Unity for the game and were tasked with improving it.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Squeeshie IDLE RPG</title>
+      <link>https://ricardoheath.co.uk/games/squeeshie-idle-rpg/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/games/squeeshie-idle-rpg/</guid>
+      <description>&lt;p&gt;I used Go to make a discord Idle RPG Game called Squeeshie Idle RPG. It was only used amongst friends and never released, though I plan to come back and continue its development. It uses Go with the Discord websocket API via &lt;a href=&#34;https://github.com/bwmarrin/discordgo&#34;&gt;https://github.com/bwmarrin/discordgo&lt;/a&gt;. User data is saved as JSON to a Postgres database. It was hosted on GCP and also has integrations with Prometheus, Grafana, and Alert monitoring&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NES CPU Emulator</title>
+      <link>https://ricardoheath.co.uk/projects/nes-emulator/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/nes-emulator/</guid>
+      <description>&lt;p&gt;I built a NES CPU Emulator called &lt;a href=&#34;https://github.com/Zephilinox/SCONES&#34;&gt;SCONES&lt;/a&gt; using C++17 (well, it was meant to be a full emulator, but I only got as far as the CPU 😂)&lt;/p&gt;&#xA;&lt;p&gt;It uses an instruction table that leverages a templated function pointer as a non-type template parameter to create multiple different functions for each type of instruction, and has tests to ensure the CPU is working correctly&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Engine27</title>
       <link>https://ricardoheath.co.uk/projects/engine27/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/engine27/</guid>
-      <description>&lt;p&gt;Engine27 is a 2D game engine written in C++17 that I&amp;rsquo;m working on with a friend, using DirectX 11 and Win32. Currently the DirectX Renderer is fully working, capable of sorting and drawing 100k sprites at 60fps with minimal draw calls due to instancing and texture atlas support.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Country Roads</title>
-      <link>https://ricardoheath.co.uk/games/country-roads/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://ricardoheath.co.uk/games/country-roads/</guid>
-      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/WiVUMbLco3o?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;For Global Game Jam 19 I joined up with a few of friends and made &lt;a href=&#34;https://v3.globalgamejam.org/2019/games/country-road&#34;&gt;Country Roads&lt;/a&gt; using Unity, a local party game for up to 4 players in which the goal is to get home. I did a lot of little tasks but I was primarily responsible for the end-of-game grave system, the menu, and gamepad control system.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Engine27 was a 2D game engine written in C++17 that I worked on with a friend, using DirectX 11 and Win32. The DirectX Renderer is fully working, capable of sorting and drawing 100k transparent sprites at 60fps with minimal draw calls due to instancing and texture atlas support&lt;/p&gt;</description>
     </item>
     <item>
       <title>Warband - Perisno</title>
@@ -72,6 +72,13 @@
       <description>&lt;p&gt;After reading the blog post on &lt;a href=&#34;http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/&#34;&gt;T-Machine&lt;/a&gt; I decided to create an &lt;a href=&#34;https://github.com/Zephilinox/ECS&#34;&gt;Entity Component System&lt;/a&gt; in 2012 by using C++ and SFML. The ECS is unlike that present in Unity, as all components only contain data.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Godot Shooter</title>
+      <link>https://ricardoheath.co.uk/games/shooter/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/games/shooter/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/NhTW8Yk8Ej0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;I used Boids for the Enemy AI in a half-finished 3D Arena Puzzle Shooter I made using Godot, with some enemy waves and a little skilltree&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Platform System</title>
       <link>https://ricardoheath.co.uk/projects/platform-system/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
@@ -79,11 +86,25 @@
       <description>&lt;p&gt;I made a system in unity to create nice platforms for the 3D platforming &lt;a href=&#34;https://ricardoheath.co.uk/games/slime-game&#34;&gt;Slime Game&lt;/a&gt; with helpful debug displays, a variety of controls, smooth catmul-rom spline interpolation, and other polish like tilting based on the players position on the platform and sine wave offsets.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Country Roads</title>
+      <link>https://ricardoheath.co.uk/games/country-roads/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/games/country-roads/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/WiVUMbLco3o?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;For Global Game Jam 19 I joined up with a few of friends and made &lt;a href=&#34;https://v3.globalgamejam.org/2019/games/country-road&#34;&gt;Country Roads&lt;/a&gt; using Unity, a local party game for up to 4 players in which the goal is to get home. I did a lot of little tasks but I was primarily responsible for the end-of-game grave system, the menu, and gamepad control system.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Crabs Tower Defense</title>
       <link>https://ricardoheath.co.uk/games/crabs-tower-defense/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/games/crabs-tower-defense/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/AhrLnE7rFAY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;As part of a university module &amp;ldquo;game jam&amp;rdquo; myself and a few others in my team were given a random theme from a generator and had to make a game based on it within two weeks. That theme was fondling crabs in an underground bunker. I was primarily responsible for the enemies, pathing with splines, and one of the maps, while also helping out generally.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cowboys</title>
+      <link>https://ricardoheath.co.uk/games/cowboys/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/games/cowboys/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Zephilinox/Cowboys&#34;&gt;Cowboys&lt;/a&gt; is a networked, turn-based startegy game where you control a team of 5 different cowboys and battle it out against another player. Written in C++17 for a university module. I was primarily responsible for creating the networking system and other engine architecture, such as multiple audio backends, state manager, message queue, and signal &amp;amp; slots.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trove - Improved Chat</title>

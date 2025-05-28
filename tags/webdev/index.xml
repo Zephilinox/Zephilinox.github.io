@@ -6,7 +6,7 @@
     <description>Recent content in Webdev on Ricardo Heath</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 May 2025 16:51:03 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2025 17:28:16 +0100</lastBuildDate>
     <atom:link href="https://ricardoheath.co.uk/tags/webdev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stardelve - Read &amp; Publish SciFi Stories</title>
@@ -16,11 +16,32 @@
       <description>&lt;p&gt;&lt;a href=&#34;https://stardelve.com/&#34;&gt;Stardelve&lt;/a&gt; is a fiction writing website along the veins of Wattpad, RoyalRoad, etc. designed specifically for hosting SciFi stories. It was my first major dive back in to web development with a fullstack project&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Single Page Website</title>
+      <link>https://ricardoheath.co.uk/projects/anapop/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/anapop/</guid>
+      <description>&lt;p&gt;I built &lt;a href=&#34;https://anapop.casa&#34;&gt;Anapop.casa&lt;/a&gt;, a personal one-page website for a friend of mine that was looking to provide a dogwalking and petsitting service. It was built using Astro and has i18n support for Portuguese, as well as English&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>YouTube Progress Tab</title>
       <link>https://ricardoheath.co.uk/mods/youtube-progress-tab/</link>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/mods/youtube-progress-tab/</guid>
       <description>&lt;p&gt;built an extension to solve an ever-present personal problem of mine. It lets me find which of many dozens of open youtube tabs had videos I had partially watched before moving on. You can find it for &lt;a href=&#34;https://addons.mozilla.org/en-GB/firefox/addon/youtube-progress-tab/&#34;&gt;Firefox&lt;/a&gt; and &lt;a href=&#34;https://chromewebstore.google.com/detail/youtube-progress-tab/bihgbcflichfnkgibnakaeehnkmjpnbm&#34;&gt;Chrome&lt;/a&gt; (did you know you have to pay google a registration fee to upload extensions?)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Squeeshie IDLE RPG</title>
+      <link>https://ricardoheath.co.uk/games/squeeshie-idle-rpg/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/games/squeeshie-idle-rpg/</guid>
+      <description>&lt;p&gt;I used Go to make a discord Idle RPG Game called Squeeshie Idle RPG. It was only used amongst friends and never released, though I plan to come back and continue its development. It uses Go with the Discord websocket API via &lt;a href=&#34;https://github.com/bwmarrin/discordgo&#34;&gt;https://github.com/bwmarrin/discordgo&lt;/a&gt;. User data is saved as JSON to a Postgres database. It was hosted on GCP and also has integrations with Prometheus, Grafana, and Alert monitoring&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Portfolio</title>
+      <link>https://ricardoheath.co.uk/projects/portfolio/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/portfolio/</guid>
+      <description>&lt;p&gt;This portfolio website was built using Hugo, a Static Site generator for markdown files, written in Go. It gets automatically built and published on every change by Github Actions&lt;/p&gt;</description>
     </item>
     <item>
       <title>IM Tools</title>

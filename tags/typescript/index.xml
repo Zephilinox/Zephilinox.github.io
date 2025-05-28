@@ -6,7 +6,7 @@
     <description>Recent content in Typescript on Ricardo Heath</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 May 2025 16:51:03 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2025 17:06:28 +0100</lastBuildDate>
     <atom:link href="https://ricardoheath.co.uk/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stardelve - Read &amp; Publish SciFi Stories</title>
@@ -14,6 +14,13 @@
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/stardelve/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://stardelve.com/&#34;&gt;Stardelve&lt;/a&gt; is a fiction writing website along the veins of Wattpad, RoyalRoad, etc. designed specifically for hosting SciFi stories. It was my first major dive back in to web development with a fullstack project&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Single Page Website</title>
+      <link>https://ricardoheath.co.uk/projects/anapop/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/anapop/</guid>
+      <description>&lt;p&gt;I built &lt;a href=&#34;https://anapop.casa&#34;&gt;Anapop.casa&lt;/a&gt;, a personal one-page website for a friend of mine that was looking to provide a dogwalking and petsitting service. It was built using Astro and has i18n support for Portuguese, as well as English&lt;/p&gt;</description>
     </item>
     <item>
       <title>YouTube Progress Tab</title>

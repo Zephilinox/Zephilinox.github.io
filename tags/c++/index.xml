@@ -6,7 +6,7 @@
     <description>Recent content in C&#43;&#43; on Ricardo Heath</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 May 2025 16:56:35 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2025 17:38:10 +0100</lastBuildDate>
     <atom:link href="https://ricardoheath.co.uk/tags/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Evercore Heroes</title>
@@ -37,13 +37,6 @@
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/kowQeYRZGaw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;A 3D &lt;a href=&#34;https://github.com/Zephilinox/DirectX11-RTS&#34;&gt;RTS &amp;ldquo;Game&amp;rdquo;&lt;/a&gt; made using Win32 and DirectX11, written in C++17 in 5 weeks for a university module.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Cowboys</title>
-      <link>https://ricardoheath.co.uk/games/cowboys/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://ricardoheath.co.uk/games/cowboys/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Zephilinox/Cowboys&#34;&gt;Cowboys&lt;/a&gt; is a networked, turn-based startegy game where you control a team of 5 different cowboys and battle it out against another player. Written in C++17 for a university module. I was primarily responsible for creating the networking system and other engine architecture, such as multiple audio backends, state manager, message queue, and signal &amp;amp; slots.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>WASM C&#43;&#43; &amp; CMake Template</title>
       <link>https://ricardoheath.co.uk/projects/c&#43;&#43;-emscripten-template/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
@@ -51,11 +44,18 @@
       <description>&lt;p&gt;&lt;a href=&#34;https://ricardoheath.co.uk/emscripten-cpp-cmake-template/&#34;&gt;Demo&lt;/a&gt;. I released &lt;a href=&#34;https://github.com/Zephilinox/emscripten-cpp-cmake-template&#34;&gt;this&lt;/a&gt; Github Template to set up a new repo that had full support for running C++ on the web via WASM, using Emscripten, alongside all the required libraries, integrations, best practices, and build systems with CI/CD&lt;/p&gt;</description>
     </item>
     <item>
+      <title>NES CPU Emulator</title>
+      <link>https://ricardoheath.co.uk/projects/nes-emulator/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/nes-emulator/</guid>
+      <description>&lt;p&gt;I built a NES CPU Emulator called &lt;a href=&#34;https://github.com/Zephilinox/SCONES&#34;&gt;SCONES&lt;/a&gt; using C++17 (well, it was meant to be a full emulator, but I only got as far as the CPU 😂)&lt;/p&gt;&#xA;&lt;p&gt;It uses an instruction table that leverages a templated function pointer as a non-type template parameter to create multiple different functions for each type of instruction, and has tests to ensure the CPU is working correctly&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Engine27</title>
       <link>https://ricardoheath.co.uk/projects/engine27/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/engine27/</guid>
-      <description>&lt;p&gt;Engine27 is a 2D game engine written in C++17 that I&amp;rsquo;m working on with a friend, using DirectX 11 and Win32. Currently the DirectX Renderer is fully working, capable of sorting and drawing 100k sprites at 60fps with minimal draw calls due to instancing and texture atlas support.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Engine27 was a 2D game engine written in C++17 that I worked on with a friend, using DirectX 11 and Win32. The DirectX Renderer is fully working, capable of sorting and drawing 100k transparent sprites at 60fps with minimal draw calls due to instancing and texture atlas support&lt;/p&gt;</description>
     </item>
     <item>
       <title>Entity Component System</title>
@@ -65,11 +65,25 @@
       <description>&lt;p&gt;After reading the blog post on &lt;a href=&#34;http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/&#34;&gt;T-Machine&lt;/a&gt; I decided to create an &lt;a href=&#34;https://github.com/Zephilinox/ECS&#34;&gt;Entity Component System&lt;/a&gt; in 2012 by using C++ and SFML. The ECS is unlike that present in Unity, as all components only contain data.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>C&#43;&#43; Raytracer</title>
+      <link>https://ricardoheath.co.uk/projects/ricochet/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/ricochet/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/n4FGKbaIaFw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;I built a &amp;ldquo;real-time&amp;rdquo; Raytracer called &lt;a href=&#34;https://github.com/Zephilinox/Ricochet&#34;&gt;Ricochet&lt;/a&gt; with C++17&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Threadpool</title>
       <link>https://ricardoheath.co.uk/projects/threadpool/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/threadpool/</guid>
       <description>&lt;p&gt;I built a C++17 header-only &lt;a href=&#34;https://github.com/Zephilinox/Threadpool&#34;&gt;Threadpool&lt;/a&gt; library with 4 different compile time configuration options (policies). Uses various standard&#xA;multithreading functions (mutex, promise, condition variable, atomic). Features unit tests, Github Actions CI/CD, and benchmarks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cowboys</title>
+      <link>https://ricardoheath.co.uk/games/cowboys/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/games/cowboys/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Zephilinox/Cowboys&#34;&gt;Cowboys&lt;/a&gt; is a networked, turn-based startegy game where you control a team of 5 different cowboys and battle it out against another player. Written in C++17 for a university module. I was primarily responsible for creating the networking system and other engine architecture, such as multiple audio backends, state manager, message queue, and signal &amp;amp; slots.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Birdman</title>

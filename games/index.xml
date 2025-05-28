@@ -6,7 +6,7 @@
     <description>Recent content in Games on Ricardo Heath</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 May 2025 16:05:46 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2025 17:37:11 +0100</lastBuildDate>
     <atom:link href="https://ricardoheath.co.uk/games/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Evercore Heroes</title>
@@ -16,11 +16,18 @@
       <description>&lt;p&gt;&lt;a href=&#34;https://store.steampowered.com/app/2586780/Evercore_Heroes__Ascension/&#34;&gt;Evercore Heroes&lt;/a&gt; was a multiplayer co-operative MOBA-esque team-based PvP game in the vein of League of Legends that I shipped during my time at Vela Games&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Cowboys</title>
-      <link>https://ricardoheath.co.uk/games/cowboys/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://ricardoheath.co.uk/games/cowboys/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Zephilinox/Cowboys&#34;&gt;Cowboys&lt;/a&gt; is a networked, turn-based startegy game where you control a team of 5 different cowboys and battle it out against another player. Written in C++17 for a university module. I was primarily responsible for creating the networking system and other engine architecture, such as multiple audio backends, state manager, message queue, and signal &amp;amp; slots.&lt;/p&gt;</description>
+      <title>Squeeshie IDLE RPG</title>
+      <link>https://ricardoheath.co.uk/games/squeeshie-idle-rpg/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/games/squeeshie-idle-rpg/</guid>
+      <description>&lt;p&gt;I used Go to make a discord Idle RPG Game called Squeeshie Idle RPG. It was only used amongst friends and never released, though I plan to come back and continue its development. It uses Go with the Discord websocket API via &lt;a href=&#34;https://github.com/bwmarrin/discordgo&#34;&gt;https://github.com/bwmarrin/discordgo&lt;/a&gt;. User data is saved as JSON to a Postgres database. It was hosted on GCP and also has integrations with Prometheus, Grafana, and Alert monitoring&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Godot Shooter</title>
+      <link>https://ricardoheath.co.uk/games/shooter/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/games/shooter/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/NhTW8Yk8Ej0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;I used Boids for the Enemy AI in a half-finished 3D Arena Puzzle Shooter I made using Godot, with some enemy waves and a little skilltree&lt;/p&gt;</description>
     </item>
     <item>
       <title>Country Roads</title>
@@ -35,6 +42,13 @@
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/games/crabs-tower-defense/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/AhrLnE7rFAY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;As part of a university module &amp;ldquo;game jam&amp;rdquo; myself and a few others in my team were given a random theme from a generator and had to make a game based on it within two weeks. That theme was fondling crabs in an underground bunker. I was primarily responsible for the enemies, pathing with splines, and one of the maps, while also helping out generally.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cowboys</title>
+      <link>https://ricardoheath.co.uk/games/cowboys/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/games/cowboys/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Zephilinox/Cowboys&#34;&gt;Cowboys&lt;/a&gt; is a networked, turn-based startegy game where you control a team of 5 different cowboys and battle it out against another player. Written in C++17 for a university module. I was primarily responsible for creating the networking system and other engine architecture, such as multiple audio backends, state manager, message queue, and signal &amp;amp; slots.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quest for the Good Time Adventure</title>

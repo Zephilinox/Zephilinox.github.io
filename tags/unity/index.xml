@@ -6,7 +6,7 @@
     <description>Recent content in Unity on Ricardo Heath</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 May 2025 16:05:46 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2025 17:37:11 +0100</lastBuildDate>
     <atom:link href="https://ricardoheath.co.uk/tags/unity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kachiku Level Editor</title>
@@ -16,18 +16,18 @@
       <description>&lt;p&gt;Kachiku is a university project that has been worked on across two different years by ~50 different students. Myself and 3 others inherited the level editor project made with Unity for the game and were tasked with improving it.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Country Roads</title>
-      <link>https://ricardoheath.co.uk/games/country-roads/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://ricardoheath.co.uk/games/country-roads/</guid>
-      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/WiVUMbLco3o?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;For Global Game Jam 19 I joined up with a few of friends and made &lt;a href=&#34;https://v3.globalgamejam.org/2019/games/country-road&#34;&gt;Country Roads&lt;/a&gt; using Unity, a local party game for up to 4 players in which the goal is to get home. I did a lot of little tasks but I was primarily responsible for the end-of-game grave system, the menu, and gamepad control system.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Platform System</title>
       <link>https://ricardoheath.co.uk/projects/platform-system/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/platform-system/</guid>
       <description>&lt;p&gt;I made a system in unity to create nice platforms for the 3D platforming &lt;a href=&#34;https://ricardoheath.co.uk/games/slime-game&#34;&gt;Slime Game&lt;/a&gt; with helpful debug displays, a variety of controls, smooth catmul-rom spline interpolation, and other polish like tilting based on the players position on the platform and sine wave offsets.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Country Roads</title>
+      <link>https://ricardoheath.co.uk/games/country-roads/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/games/country-roads/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/WiVUMbLco3o?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;For Global Game Jam 19 I joined up with a few of friends and made &lt;a href=&#34;https://v3.globalgamejam.org/2019/games/country-road&#34;&gt;Country Roads&lt;/a&gt; using Unity, a local party game for up to 4 players in which the goal is to get home. I did a lot of little tasks but I was primarily responsible for the end-of-game grave system, the menu, and gamepad control system.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Crabs Tower Defense</title>
