@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gamedev on Ricardo Heath</title>
+    <link>http://localhost:1313/categories/gamedev/</link>
+    <description>Recent content in Gamedev on Ricardo Heath</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 27 May 2025 23:19:56 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/gamedev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Platform System</title>
+      <link>http://localhost:1313/projects/platform-system/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/platform-system/</guid>
+      <description>&lt;p&gt;I made a system in unity to create nice platforms for the 3D platforming &lt;a href=&#34;http://localhost:1313/games/slime-game&#34;&gt;Slime Game&lt;/a&gt; with helpful debug displays, a variety of controls, smooth catmul-rom spline interpolation, and other polish like tilting based on the  players position on the platform and sine wave offsets.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

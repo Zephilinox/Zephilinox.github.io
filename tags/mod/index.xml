@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mod on Ricardo Heath</title>
+    <link>http://localhost:1313/tags/mod/</link>
+    <description>Recent content in Mod on Ricardo Heath</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/mod/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

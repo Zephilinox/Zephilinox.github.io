@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webdev on Ricardo Heath</title>
+    <link>http://localhost:1313/tags/webdev/</link>
+    <description>Recent content in Webdev on Ricardo Heath</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 Jul 2019 17:20:04 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/webdev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IM Tools</title>
+      <link>http://localhost:1313/projects/im-tools/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/im-tools/</guid>
+      <description>&lt;p&gt;IM Tools was a local DIY store near my college. Our assignment was to design and create a possible website for their review. It can be found &lt;a href=&#34;http://localhost:1313/IMTools&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
