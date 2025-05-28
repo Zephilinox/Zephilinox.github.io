@@ -6,42 +6,14 @@
     <description>Recent content in C# on Ricardo Heath</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 May 2025 00:25:42 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Platform System</title>
-      <link>http://localhost:1313/projects/platform-system/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/platform-system/</guid>
-      <description>&lt;p&gt;&amp;ndash;&lt;/p&gt;&#xA;&lt;p&gt;I made a system in unity to create nice platforms for the 3D platforming &lt;a href=&#34;http://localhost:1313/games/slime-game&#34;&gt;Slime Game&lt;/a&gt; with helpful debug displays, a variety of controls, smooth catmul-rom spline interpolation, and other polish like tilting based on the players position on the platform and sine wave offsets.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Crabs Tower Defense</title>
-      <link>http://localhost:1313/games/crabs-tower-defense/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/games/crabs-tower-defense/</guid>
-      <description>&lt;p&gt;&amp;ndash;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/AhrLnE7rFAY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA; &amp;gt;}}&lt;/p&gt;&#xA;&lt;p&gt;As part of a university module &amp;ldquo;game jam&amp;rdquo; myself and a few others in my team were given a random theme from a generator and had to make a game based on it within two weeks. That theme was fondling crabs in an underground bunker. I was primarily responsible for the enemies, pathing with splines, and one of the maps, while also helping out generally.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Slimes</title>
-      <link>http://localhost:1313/games/slime-game/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/games/slime-game/</guid>
-      <description>&lt;p&gt;&amp;ndash;&lt;/p&gt;&#xA;&lt;p&gt;For a university module myself and a friend made a 3D platformer in Unity in which you fight slimes, ultimately fighting the slime king. I was responsible for the Slimes and their combat system, UI, pickups, the &lt;a href=&#34;http://localhost:1313/projects/platform-system&#34;&gt;platform system&lt;/a&gt;, one of the levels, shaders, lighting, and other various scripts and systems.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../slimegame2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../slimegame3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;![](../slimegame4.pn&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Terraria - Improved Tooltips</title>
-      <link>http://localhost:1313/mods/terraria---improved-tooltips/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mods/terraria---improved-tooltips/</guid>
-      <description>&lt;p&gt;&amp;ndash;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Zephilinox/ZephsImprovedtooltips&#34;&gt;Terraria Improved Tooltips&lt;/a&gt; is a client-side mod that adds additional information and improvements to tooltips such as detailed statistics like damage per second. This mod has over 2000 downloads.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Splatoon Demake</title>
-      <link>http://localhost:1313/games/splatoon-demake/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/games/splatoon-demake/</guid>
-      <description>&lt;p&gt;&amp;ndash;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/msUeiziEk5A?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA; &amp;gt;}}&lt;/p&gt;&#xA;&lt;p&gt;As part of a university module &amp;ldquo;game jam&amp;rdquo; we &amp;ldquo;demade&amp;rdquo; splatoon in to a retro version over a couple of days. I worked with a team of a few others to create it, in which I handled technical features such as the painting mechanic, and making it multithreaded to ensure smooth gameplay, as well as the weapons themselves and some other player functionality.&lt;/p&gt;</description>
+      <title>Element Interpreter</title>
+      <link>http://localhost:1313/projects/element/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/element/</guid>
+      <description>&lt;p&gt;During my time at Ultraleap I was responsible for developing an interpreter over a period of 6 months for our Functional Programming language that we called &lt;a href=&#34;https://github.com/ultraleap/Element&#34;&gt;Element&lt;/a&gt;, designed to execute highly performant and optimised code on hardware embedded devices.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

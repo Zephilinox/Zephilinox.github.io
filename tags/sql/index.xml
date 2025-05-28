@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sql on Ricardo Heath</title>
+    <link>https://ricardoheath.co.uk/tags/sql/</link>
+    <description>Recent content in Sql on Ricardo Heath</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 28 May 2025 16:51:03 +0100</lastBuildDate>
+    <atom:link href="https://ricardoheath.co.uk/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stardelve - Read &amp; Publish SciFi Stories</title>
+      <link>https://ricardoheath.co.uk/projects/stardelve/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/stardelve/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://stardelve.com/&#34;&gt;Stardelve&lt;/a&gt; is a fiction writing website along the veins of Wattpad, RoyalRoad, etc. designed specifically for hosting SciFi stories. It was my first major dive back in to web development with a fullstack project&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

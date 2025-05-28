@@ -6,12 +6,26 @@
     <description>Recent content in Webdev on Ricardo Heath</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 May 2025 01:29:52 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2025 16:51:03 +0100</lastBuildDate>
     <atom:link href="https://ricardoheath.co.uk/tags/webdev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stardelve - Read &amp; Publish SciFi Stories</title>
+      <link>https://ricardoheath.co.uk/projects/stardelve/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/stardelve/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://stardelve.com/&#34;&gt;Stardelve&lt;/a&gt; is a fiction writing website along the veins of Wattpad, RoyalRoad, etc. designed specifically for hosting SciFi stories. It was my first major dive back in to web development with a fullstack project&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>YouTube Progress Tab</title>
+      <link>https://ricardoheath.co.uk/mods/youtube-progress-tab/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/mods/youtube-progress-tab/</guid>
+      <description>&lt;p&gt;built an extension to solve an ever-present personal problem of mine. It lets me find which of many dozens of open youtube tabs had videos I had partially watched before moving on. You can find it for &lt;a href=&#34;https://addons.mozilla.org/en-GB/firefox/addon/youtube-progress-tab/&#34;&gt;Firefox&lt;/a&gt; and &lt;a href=&#34;https://chromewebstore.google.com/detail/youtube-progress-tab/bihgbcflichfnkgibnakaeehnkmjpnbm&#34;&gt;Chrome&lt;/a&gt; (did you know you have to pay google a registration fee to upload extensions?)&lt;/p&gt;</description>
+    </item>
     <item>
       <title>IM Tools</title>
       <link>https://ricardoheath.co.uk/projects/im-tools/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/im-tools/</guid>
       <description>&lt;p&gt;IM Tools was a local DIY store near my college. Our assignment was to design and create a possible website for their review. It can be found &lt;a href=&#34;https://ricardoheath.co.uk/IMTools&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>

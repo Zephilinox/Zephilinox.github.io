@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C on Ricardo Heath</title>
+    <link>https://ricardoheath.co.uk/tags/c/</link>
+    <description>Recent content in C on Ricardo Heath</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 28 May 2025 15:15:21 +0100</lastBuildDate>
+    <atom:link href="https://ricardoheath.co.uk/tags/c/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Element Interpreter</title>
+      <link>https://ricardoheath.co.uk/projects/element/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/element/</guid>
+      <description>&lt;p&gt;While at Ultraleap I was responsible for developing an interpreter over a period of 6 months for the Functional Programming language that we open sourced, &lt;a href=&#34;https://github.com/ultraleap/Element&#34;&gt;Element&lt;/a&gt; - designed to execute highly performant and optimised code on hardware embedded devices within deterministic bounded space and time constraints&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

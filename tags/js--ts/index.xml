@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Js &amp; Ts on Ricardo Heath</title>
+    <link>http://localhost:1313/tags/js--ts/</link>
+    <description>Recent content in Js &amp; Ts on Ricardo Heath</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/js--ts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>YouTube Progress Tab</title>
+      <link>http://localhost:1313/mods/youtube-progress-tab/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mods/youtube-progress-tab/</guid>
+      <description>&lt;p&gt;built an extension to solve an ever-present personal problem of mine. It lets me find which of many dozens of open youtube tabs had videos I had partially watched before moving on. You can find it for &lt;a href=&#34;https://addons.mozilla.org/en-GB/firefox/addon/youtube-progress-tab/&#34;&gt;Firefox&lt;/a&gt; and &lt;a href=&#34;https://chromewebstore.google.com/detail/youtube-progress-tab/bihgbcflichfnkgibnakaeehnkmjpnbm&#34;&gt;Chrome&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;(did you know you have to pay google a registration fee to upload extensions? I didn&amp;rsquo;t&amp;hellip;)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

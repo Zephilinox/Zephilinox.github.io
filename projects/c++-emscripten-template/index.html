@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="C&#43;&#43;, Gamedev, Programming, Portfolio, Webdev" name="keywords">
+	<meta content="Ricardo Heath" name="author">
+	<meta property="og:title" content="WASM C&#43;&#43; &amp; CMake Template - Ricardo Heath">
+	<meta property="og:url" content="https://ricardoheath.co.uk/projects/c&#43;&#43;-emscripten-template/">
+	<meta property="og:description" content="Ricardo Heath&#39;s Portfolio">
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="/blog/wave.ico">
+	<link rel="shortcut icon" href="/blog/wave.ico">
+	<title>WASM C&#43;&#43; &amp; CMake Template | Ricardo Heath</title>
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+	<link rel="stylesheet" href="/css/syntax.css">
+	<link rel="stylesheet" href="/css/vs-syntax.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" />
+	<script defer src="https://cloud.umami.is/script.js" data-website-id="4cdd3123-474f-4e5a-8b5e-dd1b8e7891bf"></script>
+</head>
+
+<body>
+<section class="section" style="padding-bottom: 0px;">
+  <div class="container">
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="nav-item" href="https://ricardoheath.co.uk/"><h1 class="title is-4"> Projects </h1></a>
+		
+        <a class="nav-item" href="https://ricardoheath.co.uk/games/"/><h1 class="title is-4"> Games </h1></a>
+		
+        <a class="nav-item" href="https://ricardoheath.co.uk/mods/"/><h1 class="title is-4"> Mods </h1></a>
+		
+        <a class="nav-item" href="https://ricardoheath.co.uk/about/"><h1 class="title is-4"> About </h1></a>
+      </div>
+      <div class="nav-right">
+        <nav class="nav-item level is-mobile">
+          
+          <a class="level-item" href="https://github.com/zephilinox" target="_blank">
+            <span class="icon">
+              <i class="fa-brands fa-github"></i>
+            </span>
+          </a>
+          
+          <a class="level-item" href="https://bsky.app/profile/zeph.wtf" target="_blank">
+            <span class="icon">
+              <i class="fa-brands fa-bluesky"></i>
+            </span>
+          </a>
+          
+          <a class="level-item" href="https://www.linkedin.com/in/ricardo-heath/" target="_blank">
+            <span class="icon">
+              <i class="fa-brands fa-linkedin"></i>
+            </span>
+          </a>
+          
+        </nav>
+      </div>
+    </nav>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h1 class="title">WASM C&#43;&#43; &amp; CMake Template</h1>
+	<h2 class="subtitle is-6">September 2021</h2>
+
+    
+    <div class="tags">
+    
+        <a class="button is-link" href="/tags/c&#43;&#43;">#c&#43;&#43;</a>
+    
+</div>
+
+    
+    <div class="content">
+		
+		<p><a href="https://ricardoheath.co.uk/emscripten-cpp-cmake-template/">Demo</a>. I released <a href="https://github.com/Zephilinox/emscripten-cpp-cmake-template">this</a> Github Template to set up a new repo that had full support for running C++ on the web via WASM, using Emscripten, alongside all the required libraries, integrations, best practices, and build systems with CI/CD</p>
+<p>A template for using emscripten with C++20 and CMake, and using <code>GLAD</code> and <code>SDL2</code></p>
+<ul>
+<li>Emscripten web build, deployed to <code>gh-pages</code>. <a href="https://ricardoheath.co.uk/emscripten-cpp-cmake-template/">View demo here</a></li>
+<li>Linux, Mac, and Windows native builds via <code>Github Actions</code></li>
+<li>Code coverage via <code>CodeCov</code></li>
+<li>Code formatting via <code>clang-format</code></li>
+<li>Static Analysis using <code>cppcheck</code> and <code>clang-tidy</code></li>
+<li>Dynamic Analysis using <code>Address Sanitizer</code>, <code>Leak Sanitizer</code>, <code>Thread Sanitizer</code>, and <code>Undefined Behaviour Sanitizer</code></li>
+<li>Unit tests ran using <code>Valgrind</code> for runtime memory analysis</li>
+<li>Caching builds via <code>ccache</code></li>
+<li>Caching CMake dependencies via <a href="https://github.com/cpm-cmake/CPM.cmake">CPM</a></li>
+<li>Multi-project (Monorepo) setup, with <code>MyLib</code> for e.g. a game engine, and <code>MyApp</code> for e.g the gameplay code</li>
+<li>Unit tests via <a href="https://github.com/onqtam/doctest">Doctest</a></li>
+<li>Benchmarks via <a href="https://github.com/google/benchmark">Google Benchmark</a></li>
+<li>Strict compiler warnings due to <a href="https://github.com/Zephilinox/emscripten-cpp-cmake-template/blob/main/cmake/CompilerWarnings.cmake">cmake/CompilerWarnings</a>, taken from <a href="https://github.com/lefticus/cpp_starter_project/blob/master/cmake/CompilerWarnings.cmake">cpp_starter_project</a></li>
+<li>No third-party warnings due to <a href="https://github.com/Zephilinox/emscripten-cpp-cmake-template/blob/main/cmake/SetSystemIncludes.cmake">cmake/SetSystemIncludes</a> and <a href="https://github.com/Zephilinox/emscripten-cpp-cmake-template/blob/main/cmake/CompilerWarnings.cmake">cmake/CompilerWarnings</a></li>
+<li>Building <a href="https://github.com/libsdl-org/SDL">SDL2</a> from source</li>
+</ul>
+    </div>
+    
+  </div>
+</section>
+<section class="section">
+  <div class="container has-text-centered">
+	
+	<a href="index.xml">
+		<span class="fa fa-heart" aria-hidden="true" style="font-size: 12px;">
+		</span>
+	</a>
+  </div>
+</section>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/atom-one-dark.min.css" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js" integrity="sha256-+bhVTaRmJ/c07eV80nU8gD2cBBF0rYkf1txqXlrbvb0=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/cpp.min.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+</body>

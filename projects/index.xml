@@ -6,82 +6,110 @@
     <description>Recent content in Projects on Ricardo Heath</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 May 2025 01:29:52 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2025 16:56:35 +0100</lastBuildDate>
     <atom:link href="https://ricardoheath.co.uk/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stardelve - Read &amp; Publish SciFi Stories</title>
+      <link>https://ricardoheath.co.uk/projects/stardelve/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/stardelve/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://stardelve.com/&#34;&gt;Stardelve&lt;/a&gt; is a fiction writing website along the veins of Wattpad, RoyalRoad, etc. designed specifically for hosting SciFi stories. It was my first major dive back in to web development with a fullstack project&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Element Interpreter</title>
+      <link>https://ricardoheath.co.uk/projects/element/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/element/</guid>
+      <description>&lt;p&gt;While at Ultraleap I was responsible for developing an interpreter over a period of 6 months for the Functional Programming language that we open sourced, &lt;a href=&#34;https://github.com/ultraleap/Element&#34;&gt;Element&lt;/a&gt; - designed to execute highly performant and optimised code on hardware embedded devices within deterministic bounded space and time constraints&lt;/p&gt;</description>
+    </item>
     <item>
       <title>EnkiNet</title>
       <link>https://ricardoheath.co.uk/projects/enkinet/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/enkinet/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/YaYw5OSId7s?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Zephilinox/EnkiNet&#34;&gt;EnkiNet&lt;/a&gt; is my networking dissertation (2018 / 2019), creating a C++17 high-level networking API integrated with a 2D scenegraph framework.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Kachiku Level Editor</title>
-      <link>https://ricardoheath.co.uk/projects/level-editor/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://ricardoheath.co.uk/projects/level-editor/</guid>
-      <description>&lt;p&gt;Kachiku is a university project that has been worked on across two different years by ~50 different students. Myself and 3 others inherited the level editor project made with Unity for the game and were tasked with improving it.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>RTS Framework &amp; Prototype</title>
       <link>https://ricardoheath.co.uk/projects/rts/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/rts/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/kowQeYRZGaw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;A 3D &lt;a href=&#34;https://github.com/Zephilinox/DirectX11-RTS&#34;&gt;RTS &amp;ldquo;Game&amp;rdquo;&lt;/a&gt; made using Win32 and DirectX11, written in C++17 in 5 weeks for a university module.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Kachiku Level Editor</title>
+      <link>https://ricardoheath.co.uk/projects/level-editor/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/level-editor/</guid>
+      <description>&lt;p&gt;Kachiku is a university project that has been worked on across two different years by ~50 different students. Myself and 3 others inherited the level editor project made with Unity for the game and were tasked with improving it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WASM C&#43;&#43; &amp; CMake Template</title>
+      <link>https://ricardoheath.co.uk/projects/c&#43;&#43;-emscripten-template/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/c&#43;&#43;-emscripten-template/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ricardoheath.co.uk/emscripten-cpp-cmake-template/&#34;&gt;Demo&lt;/a&gt;. I released &lt;a href=&#34;https://github.com/Zephilinox/emscripten-cpp-cmake-template&#34;&gt;this&lt;/a&gt; Github Template to set up a new repo that had full support for running C++ on the web via WASM, using Emscripten, alongside all the required libraries, integrations, best practices, and build systems with CI/CD&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Engine27</title>
       <link>https://ricardoheath.co.uk/projects/engine27/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/engine27/</guid>
       <description>&lt;p&gt;Engine27 is a 2D game engine written in C++17 that I&amp;rsquo;m working on with a friend, using DirectX 11 and Win32. Currently the DirectX Renderer is fully working, capable of sorting and drawing 100k sprites at 60fps with minimal draw calls due to instancing and texture atlas support.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Entity Component System</title>
-      <link>https://ricardoheath.co.uk/projects/entity-component-system/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://ricardoheath.co.uk/projects/entity-component-system/</guid>
-      <description>&lt;p&gt;After reading the blog post on &lt;a href=&#34;http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/&#34;&gt;T-Machine&lt;/a&gt; I decided to create an &lt;a href=&#34;https://github.com/Zephilinox/ECS&#34;&gt;Entity Component System&lt;/a&gt; in 2012 by using C++ and SFML. The ECS is unlike that present in Unity, as all components only contain data.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Raytracer</title>
       <link>https://ricardoheath.co.uk/projects/raytracer/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/raytracer/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/MS9azYZO7zQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;A &lt;a href=&#34;https://github.com/Zephilinox/Raytracer&#34;&gt;Raytracer&lt;/a&gt; made using Rust following Pete Shirleys ebooks, with a BVH. Made in 5 weeks for a university module.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Entity Component System</title>
+      <link>https://ricardoheath.co.uk/projects/entity-component-system/</link>
+      <pubDate>Sat, 01 Jun 2013 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/entity-component-system/</guid>
+      <description>&lt;p&gt;After reading the blog post on &lt;a href=&#34;http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/&#34;&gt;T-Machine&lt;/a&gt; I decided to create an &lt;a href=&#34;https://github.com/Zephilinox/ECS&#34;&gt;Entity Component System&lt;/a&gt; in 2012 by using C++ and SFML. The ECS is unlike that present in Unity, as all components only contain data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Threadpool</title>
+      <link>https://ricardoheath.co.uk/projects/threadpool/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://ricardoheath.co.uk/projects/threadpool/</guid>
+      <description>&lt;p&gt;I built a C++17 header-only &lt;a href=&#34;https://github.com/Zephilinox/Threadpool&#34;&gt;Threadpool&lt;/a&gt; library with 4 different compile time configuration options (policies). Uses various standard&#xA;multithreading functions (mutex, promise, condition variable, atomic). Features unit tests, Github Actions CI/CD, and benchmarks.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>CDCGAN</title>
       <link>https://ricardoheath.co.uk/projects/cdcgan/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/cdcgan/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/NBEB2Dkw1aE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Zephilinox/CDCGAN&#34;&gt;CDCGAN&lt;/a&gt; is a conditional deep convolutional generative adversarial network made to create unique minecraft texture packs using Python and Keras. Made in 5 weeks for a university module.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Platform System</title>
       <link>https://ricardoheath.co.uk/projects/platform-system/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/platform-system/</guid>
       <description>&lt;p&gt;I made a system in unity to create nice platforms for the 3D platforming &lt;a href=&#34;https://ricardoheath.co.uk/games/slime-game&#34;&gt;Slime Game&lt;/a&gt; with helpful debug displays, a variety of controls, smooth catmul-rom spline interpolation, and other polish like tilting based on the players position on the platform and sine wave offsets.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Audio Visual Production</title>
       <link>https://ricardoheath.co.uk/projects/audio-visual-production/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/audio-visual-production/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/CGQaC09MuTs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;For a university module myself and a team of a few others used Unity to create an Audio-Visual Advert. Within the team I was primarily responsible for the audio, while also helping with scene creation, lighting, scripting, and cameras.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hexagonal A* Pathfinding</title>
       <link>https://ricardoheath.co.uk/projects/hexagonal-astar-pathfinding/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/hexagonal-astar-pathfinding/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Zephilinox/GalacticEmpires&#34;&gt;Galactic Empires&lt;/a&gt; was meant to be a 4x space game made in C++ with SFML, CEGUI, Thor, Lua, and LuaBridge. Development stopped shortly after due to the realisation of the huge scope of such a project and the lack of experience to finish it. It mainly features A* Pathfinding on a Hexagonal Grid, as well as Lua Integration, CEGUI Integration, and State Management.&lt;/p&gt;</description>
     </item>
     <item>
       <title>IM Tools</title>
       <link>https://ricardoheath.co.uk/projects/im-tools/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       <guid>https://ricardoheath.co.uk/projects/im-tools/</guid>
       <description>&lt;p&gt;IM Tools was a local DIY store near my college. Our assignment was to design and create a possible website for their review. It can be found &lt;a href=&#34;https://ricardoheath.co.uk/IMTools&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
